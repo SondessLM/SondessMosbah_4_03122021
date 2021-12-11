@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -361,7 +361,19 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+.col-sm-4
+{
+    color:black;
+    font-weight: bold;
+    margin: 23px 12px 12px 80px;;
+    
+}
+.col
+{
+    margin-top: 56px;
+    margin-bottom: 10px;
+    
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -651,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color:black!important;
 }
 
 .container {
@@ -677,7 +689,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -776,6 +788,12 @@ h4 {
 
 .tc-white {
     color: #fff!important;
+}
+.black 
+{
+    color: black!important;
+    font-weight: bold;
+    
 }
 
 .btn-atomic-tangerine {
